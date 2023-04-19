@@ -1,5 +1,5 @@
 const promt=require('prompt-sync')({sigint:true});
-const num=Number(promt('enter number'));
+var num=Number(promt('enter number'));
 let t=num;
 let sum=0;
 while(num) {
@@ -11,9 +11,9 @@ fact=1;
         i=i+1; 
         }
     sum=sum+fact;  
-    num=Number(num/10);  
+    num=Math.floor(num/10);  
 }
-if (sum==t){
+if(sum==t){
 console.log(t +' is strong');
 }
 else{
