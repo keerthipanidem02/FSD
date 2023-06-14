@@ -1,0 +1,22 @@
+
+function getDetails(){
+    setTimeout(() => {
+        console.log("DETAILS")
+    }, 2000);
+}
+
+function getUser(callback){
+    setTimeout(() => {
+        console.log("USER");
+        callback(); // Calling the function
+    }, 5000);
+}
+
+getUser(getDetails);
+
+
+
+
+C:\fsd>node callback.js
+USER
+DETAILS
