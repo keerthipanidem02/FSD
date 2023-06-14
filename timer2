@@ -18,3 +18,22 @@ setInterval(updateZ, 2000);
 
 
 numbers 
+C:\fsd>node timer2.js
+X=0; Y=1; Z=1
+X=1; Y=3; Z=2
+X=1; Y=5; Z=3
+X=2; Y=7; Z=4
+X=2; Y=9; Z=5
+X=3; Y=11; Z=6
+X=3; Y=13; Z=7
+X=4; Y=15; Z=8
+X=4; Y=17; Z=9
+X=5; Y=19; Z=10
+X=5; Y=21; Z=11
+X=6; Y=23; Z=12
+X=6; Y=25; Z=13
+X=7; Y=27; Z=14
+X=7; Y=29; Z=15
+X=8; Y=31; Z=16
+X=8; Y=33; Z=17
+X=9; Y=35; Z=18
